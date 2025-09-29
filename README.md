@@ -1,1 +1,1 @@
-# Speedaf API
+# speedaf-project\n\n## Local run\npip install -r requirements.txt\nuvicorn backend.main:app --host 0.0.0.0 --port 8000\n\n## Test\ncurl -s http://127.0.0.1:8000/\ncurl -s http://127.0.0.1:8000/health\ncurl -s http://127.0.0.1:8000/hello\n\n## Deploy\nالنشر يتم تلقائيًا عبر GitHub Actions إلى Cloud Run عند push على main.\n
